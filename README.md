@@ -6,7 +6,7 @@ Designed and implemented components using React, React Semantics UI
 Fetch data from the GitHub API. 
 By typing any GitHub username and display on the web app by searching any GitHub username.
 
-[Live Heroku Deployment]()
+[Live Heroku Deployment](https://ash-github-user-search.herokuapp.com/)
 
 [Screenshots]
 
