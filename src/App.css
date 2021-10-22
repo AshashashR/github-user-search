@@ -1,0 +1,47 @@
+.navbar {
+  padding: 20px;
+  background-color: rgb(211, 223, 209);
+  color: rgb(63, 62, 62);
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar img {
+  width: 20px;
+  padding: 0 2px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.card a {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+
+.error h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.error img {
+  display: block;
+  margin: 0 auto;
+}
